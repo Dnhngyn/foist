@@ -1,0 +1,52 @@
+@font-face{
+       font-family: "knewave";
+       src: url('/FONT/webfonts/knewave-webfont.eot');
+       src: url('/FONT/webfonts/knewave-webfont.svg');
+       src: url('/FONT/webfonts/knewave-webfont.ttf');
+       src: url('/FONT/webfonts/knewave-webfont.woff');
+       src: url('/fonts/knewave.otf') format('opentype');
+}
+
+
+body{
+	background-image:url('images/4023299713-1.jpg');
+	background-size: 780px 725px;
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+h1{
+	color:white;
+	font-size: 50px;
+	letter-spacing: 20px;
+	font-family: 'Poiret One', cursive;
+	margin-top: -3px;
+	/*margin-left:500px;*/
+	text-align:center;
+	text-shadow:1px 1px 1px black;
+	transition: color .9s;
+    -webkit-transition: color .9s; /* Safari */	
+
+}
+h1:hover{
+	color:#62ffb1;
+}
+#contentbox{
+	width: 619px;
+	height: 500px;
+	background: hsla(350, 92%, 100%, 0.35); 
+	margin-left:auto;
+	margin-right:auto;
+}
+#contentbox a{
+	color:white;
+	font-size:15px;
+	font-family:"Economica";
+	letter-spacing:4px;
+	text-decoration: none;
+	margin-left:90px;
+	transition: color .9s;
+    -webkit-transition: color .9s; /* Safari */	
+}
+#contentbox a:hover{
+	color:black;
+}
